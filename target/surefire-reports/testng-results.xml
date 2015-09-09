@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.org.TestProject.MavenDemoTest" duration-ms="13096" started-at="2015-09-09T12:55:26Z" finished-at="2015-09-09T12:55:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="13096" started-at="2015-09-09T12:55:26Z" finished-at="2015-09-09T12:55:39Z">
+      <class name="com.org.TestProject.MavenDemoTest">
+        <test-method status="PASS" signature="Hello()" name="Hello" duration-ms="13008" started-at="2015-09-09T12:55:26Z" finished-at="2015-09-09T12:55:39Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
