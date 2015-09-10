@@ -12,7 +12,7 @@ public class MavenDemoTest {
 		System.out.print("sucessfully tested maven");
 		System.setProperty("webdriver.ie.driver", "D://IEDriverServer.exe");
         WebDriver driver=new InternetExplorerDriver(); 
-driver.get("https://productintro.dev.1sync.org");	
+driver.get("https://rediff.com");	
 
 
 		
