@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39819" started-at="2015-09-16T00:48:43Z" finished-at="2015-09-16T00:49:23Z">
+  <suite name="Default suite" duration-ms="75409" started-at="2015-09-16T02:23:31Z" finished-at="2015-09-16T02:24:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39819" started-at="2015-09-16T00:48:43Z" finished-at="2015-09-16T00:49:23Z">
+    <test name="Default test" duration-ms="75409" started-at="2015-09-16T02:23:31Z" finished-at="2015-09-16T02:24:46Z">
       <class name="com.org.TestProject.LoginPIKrogerTest">
-        <test-method status="FAIL" signature="loginPIKrogerTest(java.lang.String, java.lang.String)" name="loginPIKrogerTest" duration-ms="39660" started-at="2015-09-16T00:48:44Z" finished-at="2015-09-16T00:49:23Z">
+        <test-method status="FAIL" signature="loginPIKrogerTest(java.lang.String, java.lang.String)" name="loginPIKrogerTest" duration-ms="75350" started-at="2015-09-16T02:23:31Z" finished-at="2015-09-16T02:24:46Z">
           <params>
             <param index="0">
               <value>
@@ -23,24 +23,24 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"xpath","selector":"//input[@name='USER']"}
-Command duration or timeout: 2.12 seconds
+Command duration or timeout: 203 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
-System info: host: 'LAPQR-RAJI', ip: '10.7.0.239', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+System info: host: 'LAPQR-RAJI', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 66fd82de-7f96-43e9-858f-7687f085cf46
+Session ID: eaeaf552-c730-47af-8c05-6843eabf4916
 *** Element info: {Using=xpath, value=//input[@name='USER']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@name='USER']"}
-Command duration or timeout: 2.12 seconds
+Command duration or timeout: 203 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
-System info: host: 'LAPQR-RAJI', ip: '10.7.0.239', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+System info: host: 'LAPQR-RAJI', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 66fd82de-7f96-43e9-858f-7687f085cf46
+Session ID: eaeaf552-c730-47af-8c05-6843eabf4916
 *** Element info: {Using=xpath, value=//input[@name='USER']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -83,13 +83,13 @@ Session ID: 66fd82de-7f96-43e9-858f-7687f085cf46
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@name='USER']"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
-System info: host: 'LAPQR-RAJI', ip: '10.7.0.239', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+System info: host: 'LAPQR-RAJI', ip: '192.168.0.103', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous8739999550305063583webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous8739999550305063583webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10676)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous8739999550305063583webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous8739999550305063583webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12648)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous8739999550305063583webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12590)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous1651048658514757728webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous1651048658514757728webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10676)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous1651048658514757728webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous1651048658514757728webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12648)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/RKODDH~1/AppData/Local/Temp/anonymous1651048658514757728webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12590)
 ]]>
             </full-stacktrace>
           </exception>
