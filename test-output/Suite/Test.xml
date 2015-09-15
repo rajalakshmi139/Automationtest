@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPQR-RAJI" name="com.org.TestProject.LoginPIKrogerTest" tests="1" failures="0" timestamp="15 Sep 2015 15:39:44 GMT" time="0.144" errors="0">
+  <testcase name="loginPIKrogerTest" time="0.051" classname="com.org.TestProject.LoginPIKrogerTest">
+    <skipped/>
+  </testcase>
+</testsuite>
